@@ -9,8 +9,12 @@ export const ButtonContainer = styled.button`
   border: 1px solid #81259d;
   border-radius: 21px;
 
-  &:hover {
+  &:hover:enabled {
     opacity: 0.6;
     cursor: pointer;
+  }
+
+  &:disabled{
+    background-color: #8D5C9E;
   }
 `;
